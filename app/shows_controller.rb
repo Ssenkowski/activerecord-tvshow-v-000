@@ -3,7 +3,7 @@ def highest_rating
 end
 
 def most_popular_show
-  Shows.highest_rating.name
+  #Shows.highest_rating.name
 end
 
 def lowest_rating
