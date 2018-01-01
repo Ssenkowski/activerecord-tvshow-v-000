@@ -11,7 +11,7 @@ def lowest_rating
 end
 
 def least_popular_show
-
+  Shows.lowest_rating.first
 end
 
 def ratings_sum
