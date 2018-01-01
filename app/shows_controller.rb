@@ -1,3 +1,4 @@
+class ShowsController < ActiveRecord::Base
   def highest_rating
     Shows.maximum("rating").name
   end
