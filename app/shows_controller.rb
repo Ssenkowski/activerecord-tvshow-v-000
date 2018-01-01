@@ -19,7 +19,7 @@ def ratings_sum
 end
 
 def popular_shows
-
+  Shows.where("rating > 5")
 end
 
 def shows_by_alphabetical_order
