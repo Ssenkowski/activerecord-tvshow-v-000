@@ -1,6 +1,3 @@
-class ShowsController < ActiveRecord::Base
-  self.abstract_class = true
-end
   def highest_rating
     Shows.maximum("rating").name
   end
