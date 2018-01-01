@@ -1,6 +1,4 @@
 class CreateShows < ActiveRecord::Migration
-  extend Crud
-  include Crud
   def change
     create_table :shows do |t|
       t.string :name
