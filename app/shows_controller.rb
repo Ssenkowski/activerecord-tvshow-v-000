@@ -1,4 +1,4 @@
-  def self.highest_rating
+  def highest_rating
     Shows.maximum("rating").name
   end
 
