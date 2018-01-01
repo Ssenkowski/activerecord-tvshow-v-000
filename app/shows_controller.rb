@@ -23,5 +23,5 @@ def popular_shows
 end
 
 def shows_by_alphabetical_order
-
+  Shows.order(name: :asc)
 end
