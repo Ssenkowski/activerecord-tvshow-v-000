@@ -1,4 +1,4 @@
-module
+module Crud
   def highest_rating
     Shows.maximum("rating").name
   end
