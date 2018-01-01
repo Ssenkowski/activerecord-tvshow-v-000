@@ -1,5 +1,5 @@
 def highest_rating
-  Shows.maximum("rating")
+  Shows.maximum.rating
 end
 
 def most_popular_show
