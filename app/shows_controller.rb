@@ -1,6 +1,5 @@
 require 'pry'
 def highest_rating
-  binding.pry
   Shows.maximum.("rating").name
 end
 
